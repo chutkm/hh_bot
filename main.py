@@ -5,7 +5,7 @@ from bot.bot import main as start_bot  # Импорт функции, запус
 
 async def run_api():
     """Запускаем FastAPI сервер"""
-    config = uvicorn.Config(api_app, host="0.0.0.0", port=8000, log_level="info")
+    config = uvicorn.Config(api_app, host="0.0.0.0", port=8005, log_level="info")
     server = uvicorn.Server(config)
     await server.serve()
 

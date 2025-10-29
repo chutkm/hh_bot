@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-# from .models import Resume, SkillsResponse
+from .models import Resume, SkillsResponse
 import spacy
 from spacy.matcher import PhraseMatcher
 from app.skills_keywords import SKILLS_KEYWORDS

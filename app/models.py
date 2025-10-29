@@ -1,8 +1,8 @@
-# from pydantic import BaseModel
-# from typing import List
+from pydantic import BaseModel
+from typing import List
 
-# class Resume(BaseModel):
-#     text: str
+class Resume(BaseModel):
+    text: str
 
-# class SkillsResponse(BaseModel):
-#     skills: List[str]
+class SkillsResponse(BaseModel):
+    skills: List[str]
